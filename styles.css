@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top {
+  background-color: #E4F9F5;
+}
+
+.top {
+  position: relative;
+  padding: 100px;
+}
+
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 400px;
+}
+
+.yulu {
+  position: absolute;
+  right: 450px;
+  top: 100px;
+}
+.me{
+  border-radius: 50%;
+  width: 10%;
+  margin-top: 30px;
+}
+a{
+  color: #11999E;
+}
+
+.skill-row{
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+.program{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.game{
+  float: right;
+  margin-left: 30px;
+}
+hr{
+  width: 2%;
+  border-style: dotted;
+  border-color: grey;
+  border-width: 5px 0 0 0;
+}
+.contact-me{
+  padding-bottom: 100px;
+  line-height: 2;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  height: 150px;
+  position: relative;
+}
+.copy{
+  margin: 0;
+  position: absolute;
+  bottom: 40px;
+  left: 45%;
+  color: white;
+}
+.footer-link{
+  position: relative;
+  top: 30px;
+  margin: 20px;
+  text-decoration: none;
+  color: #11999E;
+}
+.footer-link:hover{
+  background-color: white;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
